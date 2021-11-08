@@ -22,7 +22,7 @@ dj-database-url==0.5.0
     # via -r requirements.in
 django-configurations==2.2
     # via -r requirements.in
-django==3.1.7
+django==3.1.13
     # via
     #   -r requirements.in
     #   djangorestframework
@@ -139,11 +139,11 @@ six==1.15.0
     #   google-resumable-media
     #   grpcio
     #   protobuf
-sqlparse==0.4.1
+sqlparse==0.4.2
     # via django
 toml==0.10.2
     # via pytest
-urllib3==1.26.4
+urllib3==1.26.5
     # via requests
 whitenoise==5.2.0
     # via -r requirements.in
