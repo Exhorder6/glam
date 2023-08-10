@@ -62,7 +62,7 @@ google-resumable-media==1.2.0
     #   google-cloud-storage
 googleapis-common-protos==1.53.0
     # via google-api-core
-grpcio==1.36.1
+grpcio==1.53.2
     # via google-api-core
 gunicorn==20.1.0
     # via -r requirements.in
