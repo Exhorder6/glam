@@ -72,7 +72,7 @@ iniconfig==1.1.1
     # via pytest
 mccabe==0.6.1
     # via flake8
-orjson==3.5.1
+orjson==3.9.15
     # via drf-orjson-renderer
 packaging==20.9
     # via
@@ -150,3 +150,4 @@ whitenoise==5.2.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
