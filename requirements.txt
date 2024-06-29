@@ -10,7 +10,7 @@ attrs==20.3.0
     # via pytest
 cachetools==4.2.1
     # via google-auth
-certifi==2020.12.5
+certifi==2023.7.22
     # via requests
 cffi==1.14.5
     # via google-crc32c
@@ -22,12 +22,12 @@ dj-database-url==0.5.0
     # via -r requirements.in
 django-configurations==2.2
     # via -r requirements.in
-django==3.1.7
+django==3.2.25
     # via
     #   -r requirements.in
     #   djangorestframework
     #   drf-orjson-renderer
-djangorestframework==3.12.4
+djangorestframework==3.15.2
     # via
     #   -r requirements.in
     #   drf-orjson-renderer
@@ -64,15 +64,15 @@ googleapis-common-protos==1.53.0
     # via google-api-core
 grpcio==1.36.1
     # via google-api-core
-gunicorn==20.1.0
+gunicorn==22.0.0
     # via -r requirements.in
-idna==2.10
+idna==3.7
     # via requests
 iniconfig==1.1.1
     # via pytest
 mccabe==0.6.1
     # via flake8
-orjson==3.5.1
+orjson==3.9.15
     # via drf-orjson-renderer
 packaging==20.9
     # via
@@ -83,7 +83,7 @@ pluggy==0.13.1
     # via pytest
 proto-plus==1.18.1
     # via google-cloud-bigquery
-protobuf==3.15.6
+protobuf==3.18.3
     # via
     #   google-api-core
     #   google-cloud-bigquery
@@ -123,7 +123,7 @@ pytz==2021.1
     # via
     #   django
     #   google-api-core
-requests==2.25.1
+requests==2.32.2
     # via
     #   google-api-core
     #   google-cloud-bigquery
@@ -139,14 +139,15 @@ six==1.15.0
     #   google-resumable-media
     #   grpcio
     #   protobuf
-sqlparse==0.4.1
+sqlparse==0.5.0
     # via django
 toml==0.10.2
     # via pytest
-urllib3==1.26.4
+urllib3==1.26.19
     # via requests
 whitenoise==5.2.0
     # via -r requirements.in
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
