@@ -22,7 +22,7 @@ dj-database-url==0.5.0
     # via -r requirements.in
 django-configurations==2.2
     # via -r requirements.in
-django==3.1.7
+django==4.2.14
     # via
     #   -r requirements.in
     #   djangorestframework
@@ -150,3 +150,4 @@ whitenoise==5.2.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
